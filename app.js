@@ -1,4 +1,6 @@
 let moon = document.querySelector('.moon');
+let sun = document.querySelector('.start');
+
 console.log(moon);
 
 let observer = new IntersectionObserver(entries => {
@@ -11,3 +13,4 @@ let observer = new IntersectionObserver(entries => {
 });
 
 observer.observe(moon);
+observer.observe(sun);
