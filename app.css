@@ -1,0 +1,62 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.day {
+    width: 100%;
+    height: 100vh; /* Full height (viewport height) */
+    background-image: url('img/fer-nando-45JXWRNoTqU-unsplash.jpg');
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(180, 63, 16);
+    font-size: 2.5em;
+    }
+    .start{
+        transform: translateX(-30vw );
+    padding:50wv ;
+        opacity: 0;
+       transition: all 1.5s ease-in-out ;
+       
+    }
+.start:hover  {
+       
+    
+    transform: translate(0px);
+    opacity: 1; 
+  
+    }
+    .night {
+        width: 100%;
+        height: 100vh; /* Full height (viewport height) */
+        background-image: url('img/altinay-dinc-LluELtL5mK4-unsplash.jpg');
+        background-size: cover; /* Cover the entire div */
+         /* Center the image */
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(158, 147, 43);
+        font-size: 2.5em;
+        }
+
+.moon{
+
+    transform: translateX(-30vw );
+    padding:50wv ;
+        opacity: 0;
+       transition: all 1.5s ease-in-out ;
+    
+}
+.moonShines{
+    transform: translate(0px);
+    opacity: 1; 
+     
+}
