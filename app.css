@@ -9,7 +9,7 @@
 .day {
     width: 100%;
     height: 100vh; /* Full height (viewport height) */
-    background-image: url('img/fer-nando-45JXWRNoTqU-unsplash.jpg');
+    background-image: url('fer-nando-45JXWRNoTqU-unsplash.jpg');
     background-size: cover; /* Cover the entire div */
     background-position: center; /* Center the image */
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@
        transition: all 1.5s ease-in-out ;
        
     }
-.start:hover  {
+.sun  {
        
     
     transform: translate(0px);
@@ -36,7 +36,7 @@
     .night {
         width: 100%;
         height: 100vh; /* Full height (viewport height) */
-        background-image: url('img/altinay-dinc-LluELtL5mK4-unsplash.jpg');
+        background-image: url('altinay-dinc-LluELtL5mK4-unsplash.jpg');
         background-size: cover; /* Cover the entire div */
          /* Center the image */
         background-repeat: no-repeat;
